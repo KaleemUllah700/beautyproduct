@@ -1,0 +1,578 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-size:cover;
+    padding: 0;
+    margin:0;
+}
+/*start nav coding*/
+
+nav{
+    width:100%;
+    height:250px;
+    background-color:rgb(0,0,0,0.8);
+}
+#welcome-text{
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+#navbar{
+    width:150px;
+    height:80px;
+    border:1px solid white;
+    text-align: center;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-family: sans-serif;
+}
+/*end nav coding*/
+
+
+
+/*start section coding*/
+section{
+    width:100%;
+    height:407px;
+    float: left;
+    box-sizing: border-box;
+}
+#right-div{
+    background-image: url(../images/section-bg.png);
+    width:800px;
+    height:407px;
+    float: right;
+    box-sizing: border-box;
+}
+#section-images{
+    width:700px;
+    height:407px;
+    
+}
+#logo{
+    width:220px;
+    height:180px;
+    border:5px solid white;
+    margin-top:60px;
+    margin-left:300px;
+}
+#logo-name{
+    color:white;
+    font-size:160px;
+    padding: 0;
+    margin: 0;
+    margin-left: 55px;
+}
+#tag-name{
+    color: white;
+    text-align: center;
+    font-size:60px;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+/*start login section coding*/
+#beauty-products{
+     color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+#login-right-div{
+    background-image: url(../images/section-bg.png);
+    width: 800px;
+    height: 407px;
+    float: right;
+    box-sizing: border-box;
+}
+
+#login{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+#login-fieldset{  
+  width: 400px;
+    height: 250px;
+    margin: 50px;
+    margin-left: 250px;
+}
+
+#username{
+    width: 380px;
+    height:40px;
+    background-color: inherit;
+    border: 2px solid white;
+    font-size: 22px;
+    color: white;
+}
+#username:focus{
+    outline: none;
+}
+
+#password{
+    width: 380px;
+    height: 40px;
+    background-color: inherit;
+    border: 2px solid white;
+    font-size: 22px;
+    color: white;
+}
+#password:focus{
+    outline: none;
+}
+
+#login-btn{
+    width: 100px;
+    height: 40px;
+    background-color: inherit;
+    border: 2px solid white;
+    font-size: 18px;
+    color: white;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-right: 12px;
+}
+
+
+/*end login section coding*/
+
+
+/*start sign up section coding*/
+#sign{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+#sign-fieldset{  
+  width: 400px;
+    height: 340px;
+    margin: 30px;
+    margin-left: 250px;
+}
+
+#username{
+    width: 380px;
+    height:40px;
+    background-color: inherit;
+    border: 2px solid white;
+    font-size: 22px;
+    color: white;
+}
+#username:focus{
+    outline: none;
+}
+
+#password{
+    width: 380px;
+    height: 40px;
+    background-color: inherit;
+    border: 2px solid white;
+    font-size: 22px;
+    color: white;
+}
+#password:focus{
+    outline: none;
+}
+
+#mobile-no{
+     width: 380px;
+    height: 40px;
+    background-color: inherit;
+    border: 2px solid white;
+    font-size: 22px;
+    color: white;
+}
+
+#mobile-no:focus{
+    outline: none;
+}
+
+#sign-btn{
+    width: 100px;
+    height: 40px;
+    background-color: inherit;
+    border: 2px solid white;
+    font-size: 18px;
+    color: white;
+    float: right;
+    box-sizing: border-box;
+    margin-right: 12px;
+}
+/*end sign up section coding*/
+
+/*start contact section coding*/
+#address-div{
+    width: 400px;
+    height: 300px;
+    border:2px solid white;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+#address{
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 30px;
+}
+/*end contact section coding*/
+
+/*start products section coding*/
+#brand-div{
+    width:100%;
+    height:400px;
+    background-color: rgb(250,250,250,0.4);
+    float: left;
+    box-sizing: border-box;
+    
+}
+#select-brand{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    
+ 
+}
+
+#brand-logo{
+    width: 200px;
+    height: 80px;
+    border: 3px solid black;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 60px;
+}
+
+#search{
+    width:800px;
+    height: 50px;
+    float: left;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    margin-top: 60px;
+    margin-left: 230px;
+    font-size: 25px;
+    padding-left: 20px;
+    
+    
+}
+#search:focus{
+    outline: none;
+}
+
+#search-btn{
+    width: 100px;
+    height: 50px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 60px;
+    border: 2px solid grey;
+    font-size: 20px;
+    font-size: 25px;
+}
+/*start zest product coding*/
+#zest-brand-samples{
+    width:100%;
+    height: 420px;
+     background-color:rgb(0,0,0,0.8);
+    float: left;
+    box-sizing: border-box;
+    
+    
+}
+
+#zest-product-head{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+#zest-product-samples-pic{
+    width: 200px;
+    height: 280px;
+    border: 2px solid white;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+#zest-product-name{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#zest-price{
+    color: white;
+    margin-left: 15px;
+}
+
+#zest-buy-now{
+    color: white;
+    margin-left: 15px;
+    float: right;
+    padding: 0;
+    margin: 0;
+    margin-top: -35px;
+    margin-right: 15px;
+    
+}
+/*end zest product coding*/
+
+/*start dove product coding*/
+#dove-brand-samples{
+    width:100%;
+    height: 420px;
+     background-color:rgb(0,0,0,0.8);
+    float: left;
+    box-sizing: border-box;
+    
+    
+}
+
+#dove-product-head{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+#dove-product-samples-pic{
+    width: 200px;
+    height: 280px;
+    border: 2px solid white;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+#dove-product-name{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#dove-price{
+    color: white;
+    margin-left: 15px;
+}
+
+#dove-buy-now{
+    color: white;
+    margin-left: 15px;
+    float: right;
+    padding: 0;
+    margin: 0;
+    margin-top: -35px;
+    margin-right: 15px;
+    
+}
+/*end dove product coding*/
+
+/*start beauty product coding*/
+#beauty-brand-samples{
+    width:100%;
+    height: 420px;
+     background-color:rgb(0,0,0,0.8);
+    float: left;
+    box-sizing: border-box;
+    
+    
+}
+
+#beauty-product-head{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+#beauty-product-samples-pic{
+    width: 200px;
+    height: 280px;
+    border: 2px solid white;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+#beauty-product-name{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#beauty-price{
+    color: white;
+    margin-left: 15px;
+}
+
+#beauty-buy-now{
+    color: white;
+    margin-left: 15px;
+    float: right;
+    padding: 0;
+    margin: 0;
+    margin-top: -35px;
+    margin-right: 15px;
+    
+}
+/*end beauty product coding*/
+
+/*start persoanl care product coding*/
+#personal-brand-samples{
+    width:100%;
+    height: 420px;
+     background-color:rgb(0,0,0,0.8);
+    float: left;
+    box-sizing: border-box;
+    
+    
+}
+
+#personal-product-head{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+#personal-product-samples-pic{
+    width: 200px;
+    height: 280px;
+    border: 2px solid white;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+#personal-product-name{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#personal-price{
+    color: white;
+    margin-left: 15px;
+}
+
+#personal-buy-now{
+    color: white;
+    margin-left: 15px;
+    float: right;
+    padding: 0;
+    margin: 0;
+    margin-top: -35px;
+    margin-right: 15px;
+    
+}
+/*end personal care product coding*/
+
+
+/*start amica product coding*/
+#amica-brand-samples{
+    width:100%;
+    height: 420px;
+     background-color:rgb(0,0,0,0.8);
+    float: left;
+    box-sizing: border-box;
+    
+    
+}
+
+#amica-product-head{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+#amica-product-samples-pic{
+    width: 200px;
+    height: 280px;
+    border: 2px solid white;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+#amica-product-name{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#amica-price{
+    color: white;
+    margin-left: 15px;
+}
+
+#amica-buy-now{
+    color: white;
+    margin-left: 15px;
+    float: right;
+    padding: 0;
+    margin: 0;
+    margin-top: -35px;
+    margin-right: 15px;
+    
+}
+
+/*end amica product coding*/
+
+
+
+/*end products section coding*/
+
+
+/*end section coding*/
